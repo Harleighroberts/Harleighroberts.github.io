@@ -1,5 +1,5 @@
 body {
-	background: #FAEBD7 url('../images/vintage-concrete.png');
+	background: #FAEBD7 url('https://cubiclecreative.co.uk/wp-content/uploads/2017/09/concrete-photoshop-textures.jpg');
 	color: #333;
 }
 
@@ -19,9 +19,10 @@ header, nav, main, footer {
 /* Header styles */
 header { 
 	background-color: #000;
-	color: BlanchedAlmond;
+	color: #FFFFFF;
 	min-height: 100px;
 	margin-top: 60px;
+	font-family: 'Righteous', cursive;
 }
 
 header h1 {
@@ -36,7 +37,7 @@ nav ul {
 	justify-content: flex-end;
 }
 nav li { padding: 10px 10px; }
-nav a { color: BlanchedAlmond; }
+nav a { color: #FFB6C1; }
 nav a:hover { color: white; }
 
 
