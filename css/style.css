@@ -1,14 +1,14 @@
 body {
-	background: #FAEBD7 url('https://cubiclecreative.co.uk/wp-content/uploads/2017/09/concrete-photoshop-textures.jpg');
-	color: #333;
+	background: #FAEBD7 url("https://images.unsplash.com/photo-1508311843701-12cf9b720d03?ixlib=rb-1.2.1&auto=format&fit=crop&w=935&q=80");
+	color: white;
 }
 
 a {
 	text-decoration: none;
-	color: #333;
+	color: white;
 }
 
-a:hover { color: Tomato; }
+a:hover { color: #FFFFFF; }
 
 header, nav, main, footer {
 	width: 80%;
@@ -18,11 +18,12 @@ header, nav, main, footer {
 
 /* Header styles */
 header { 
-	background-color: #000;
-	color: #FFFFFF;
+	background-color: white;
+	color: orange;
 	min-height: 100px;
 	margin-top: 60px;
 	font-family: 'Righteous', cursive;
+	font-size: 20px;
 }
 
 header h1 {
@@ -31,21 +32,25 @@ header h1 {
 
 
 /* Nav styles */
-nav { background-color: #333; }
+nav { background-color: black; }
 nav ul { 
 	display: flex;
 	justify-content: flex-end;
+	font-family: 'Righteous', cursive;
 }
 nav li { padding: 10px 10px; }
-nav a { color: #FFB6C1; }
-nav a:hover { color: white; }
+nav a { color: orange; }
+nav a:hover { color: #FFFAF0; }
 
 
 /* Main styles */
 main { 
-	background-color: #fff;
+	background-color: #B8E7FF;
+	color: black;
 	display: grid;
 	grid-template-columns: 60% 40%;
+	font-family: 'Righteous', cursive;
+
 }
 
 section {
@@ -56,6 +61,8 @@ section ul, aside ul {
 	list-style-type: square;
 	margin-top: 20px; 
 	margin-left: 30px;
+	color: black;
+
 }
 
 aside {
@@ -66,7 +73,7 @@ aside {
 
 /* Footer styles */
 footer { 
-	background-color: #000;
+	background-color: white;
 	color: white;
 	text-align: center;
  }
